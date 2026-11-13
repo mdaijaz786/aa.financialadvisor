@@ -1,42 +1,44 @@
 
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AA Financial Advisor</title>
 <style>
 *{box-sizing:border-box}
-body{margin:0;font-family:Arial,sans-serif;background:#f5f8fc;color:#24334a}
-header{background:#092d59;color:white;padding:25px 18px;text-align:center}
-header h1{margin:5px;font-size:30px}
-header p{margin:8px 0}
-nav{background:#fff;padding:14px;text-align:center;position:sticky;top:0}
-nav a{color:#12365d;text-decoration:none;font-weight:bold;margin:0 8px;font-size:13px}
-.hero{background:linear-gradient(130deg,#092d59,#087a9e);color:white;text-align:center;padding:55px 20px}
-.hero h2{font-size:30px}
-.hero p{font-size:17px;line-height:1.6}
-.btn{display:inline-block;background:#f5b72e;color:#172c48;padding:13px 22px;border-radius:7px;text-decoration:none;font-weight:bold;margin-top:12px;border:0;cursor:pointer}
-section{padding:35px 18px;text-align:center}
-h2{color:#103966}
-.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:15px;max-width:850px;margin:auto}
-.service{background:white;padding:22px 12px;border-radius:12px;box-shadow:0 3px 12px #00000012}
+body{margin:0;font-family:Arial,sans-serif;background:#071b35;color:white}
+header{background:#06152b;padding:22px 15px;text-align:center;border-bottom:2px solid #d9ad50}
+header h1{color:#e8bd65;margin:5px;font-size:27px}
+header p{color:white;margin:8px}
+nav{text-align:center;padding:16px;background:#102b4b}
+nav a{color:#f3d28c;text-decoration:none;margin:8px;font-weight:bold;font-size:14px}
+.hero{padding:40px 18px;text-align:center;background:linear-gradient(135deg,#09213f,#174a70)}
+.hero h2{color:#f3ce78;font-size:29px}
+.hero p{line-height:1.7;color:#fff}
+.btn{display:inline-block;padding:13px 20px;margin:8px;border-radius:7px;text-decoration:none;font-weight:bold}
+.gold{background:#e8bd65;color:#071b35}
+.green{background:#20b85a;color:white}
+.profile{max-width:210px;width:75%;height:210px;object-fit:cover;border-radius:50%;border:5px solid #e8bd65;margin:20px auto}
+section{padding:35px 16px;text-align:center}
+h2{color:#f0ca78}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:14px;max-width:850px;margin:auto}
+.service{background:#102e50;border:1px solid #b68d42;border-radius:12px;padding:20px 10px}
 .service span{font-size:32px}
-.service h3{color:#123d69;font-size:17px}
-.service p{font-size:14px;line-height:1.5}
-.about{background:#e9f2fb;line-height:1.8}
-form{max-width:450px;margin:auto;background:white;padding:22px;border-radius:12px;box-shadow:0 3px 12px #00000012}
-input,select,textarea{width:100%;padding:13px;margin:8px 0;border:1px solid #ccd5df;border-radius:6px;font-size:15px}
-form button{width:100%;font-size:16px}
-footer{background:#092d59;color:white;text-align:center;padding:25px 15px;line-height:1.8}
-.whatsapp{position:fixed;bottom:18px;right:16px;background:#20b85a;color:white;padding:14px 18px;border-radius:40px;text-decoration:none;font-weight:bold;box-shadow:0 3px 10px #777}
+.service h3{color:#f3ce78}
+.service p{color:white;font-size:14px;line-height:1.5}
+.about{background:#102b4b;line-height:1.8}
+form{max-width:450px;margin:auto;background:#102e50;padding:22px;border:1px solid #d9ad50;border-radius:12px}
+input,select,textarea{width:100%;padding:13px;margin:8px 0;border-radius:6px;border:1px solid #ccc;font-size:15px}
+button{width:100%;border:0;cursor:pointer;font-size:16px}
+footer{background:#06152b;text-align:center;padding:25px;line-height:1.8;color:white}
 </style>
 </head>
 <body>
 
 <header>
 <h1>AA FINANCIAL ADVISOR</h1>
-<p>आपके परिवार का सुरक्षित भविष्य, हमारा उद्देश्य</p>
+<p>Smart Money. Better Planning. Better Future.</p>
 </header>
 
 <nav>
@@ -47,74 +49,71 @@ footer{background:#092d59;color:white;text-align:center;padding:25px 15px;line-h
 </nav>
 
 <div class="hero" id="home">
-<h2>आज की सही योजना, कल का सुरक्षित भविष्य</h2>
-<p>आपके और आपके परिवार के लिए Insurance एवं Financial Planning की बेहतर जानकारी और मार्गदर्शन।</p>
-<a class="btn" href="#contact">आज ही संपर्क करें</a>
+<img class="profile" src="advisor.png" alt="Financial Advisor">
+<h2>Your Family's Financial Security Is Our Priority</h2>
+<p>Plan Today. Secure Tomorrow.</p>
+<p>Life Insurance | Health Insurance | Financial Planning</p>
+<a class="btn gold" href="tel:+918353919039">📞 Call Now</a>
+<a class="btn green" href="https://wa.me/918353919039">WhatsApp Now</a>
 </div>
 
 <section id="services">
-<h2>हमारी सेवाएँ</h2>
-<p>आपकी जरूरतों के अनुसार वित्तीय सुरक्षा की योजना।</p>
+<h2>Our Financial Services</h2>
 <div class="services">
-<div class="service"><span>🛡️</span><h3>Life Insurance</h3><p>परिवार के आर्थिक भविष्य की सुरक्षा।</p></div>
-<div class="service"><span>❤️</span><h3>Health Insurance</h3><p>अस्पताल के खर्चों से वित्तीय सुरक्षा।</p></div>
-<div class="service"><span>🚗</span><h3>Vehicle Insurance</h3><p>कार और बाइक के लिए बीमा मार्गदर्शन।</p></div>
-<div class="service"><span>🎓</span><h3>Child Education</h3><p>बच्चों की पढ़ाई के लिए भविष्य की योजना।</p></div>
-<div class="service"><span>👧</span><h3>Marriage Planning</h3><p>बेटी के सपनों के लिए आर्थिक तैयारी।</p></div>
-<div class="service"><span>👴</span><h3>Retirement Planning</h3><p>रिटायरमेंट के बाद आर्थिक तैयारी।</p></div>
-<div class="service"><span>🏠</span><h3>Property Protection</h3><p>संपत्ति की सुरक्षा के लिए बीमा विकल्प।</p></div>
-<div class="service"><span>💰</span><h3>Financial Planning</h3><p>आपके लक्ष्यों के अनुसार वित्तीय मार्गदर्शन।</p></div>
+<div class="service"><span>🛡️</span><h3>Life Insurance</h3><p>Protect your family's financial future.</p></div>
+<div class="service"><span>❤️</span><h3>Health Insurance</h3><p>Financial protection against medical expenses.</p></div>
+<div class="service"><span>🚗</span><h3>Vehicle Insurance</h3><p>Protection for your car and bike.</p></div>
+<div class="service"><span>🎓</span><h3>Child Education</h3><p>Plan for your children's education.</p></div>
+<div class="service"><span>👧</span><h3>Marriage Planning</h3><p>Prepare financially for future dreams.</p></div>
+<div class="service"><span>👴</span><h3>Retirement Planning</h3><p>Build a secure retirement future.</p></div>
+<div class="service"><span>🏠</span><h3>Property Protection</h3><p>Explore protection for your property.</p></div>
+<div class="service"><span>💰</span><h3>Financial Planning</h3><p>Plan your savings and financial goals.</p></div>
 </div>
 </section>
 
 <section class="about" id="about">
-<h2>हमारे बारे में</h2>
-<p>AA Financial Advisor में हमारा उद्देश्य लोगों को बीमा और वित्तीय योजना के प्रति जागरूक करना है। हम आपकी जरूरतों और बजट के अनुसार उपयुक्त विकल्प समझने में मदद करते हैं।</p>
+<h2>About AA Financial Advisor</h2>
+<p>We help individuals and families understand insurance and financial planning options. Our aim is to guide you towards informed decisions for a better financial future.</p>
 </section>
 
 <section id="contact">
-<h2>आज ही संपर्क करें</h2>
-<p>अपनी जानकारी भरें। हमसे WhatsApp पर संपर्क करें।</p>
+<h2>Get In Touch</h2>
+<p>Fill in your details and contact us on WhatsApp.</p>
 <form onsubmit="sendMessage(event)">
-<input id="name" placeholder="आपका नाम" required>
-<input id="phone" type="tel" placeholder="मोबाइल नंबर" required>
+<input id="name" placeholder="Your Name" required>
+<input id="phone" type="tel" placeholder="Your Mobile Number" required>
 <select id="plan" required>
-<option value="">कौन सी जानकारी चाहिए?</option>
+<option value="">Select Your Requirement</option>
 <option>Life Insurance</option>
 <option>Health Insurance</option>
 <option>Vehicle Insurance</option>
-<option>Child Education Plan</option>
+<option>Child Education</option>
 <option>Marriage Planning</option>
 <option>Retirement Planning</option>
-<option>Property Protection</option>
-<option>Other</option>
+<option>Financial Planning</option>
 </select>
-<textarea id="message" placeholder="अपना संदेश लिखें"></textarea>
-<button class="btn" type="submit">WhatsApp पर भेजें</button>
+<textarea id="message" placeholder="Your Message"></textarea>
+<button class="btn gold" type="submit">Send Enquiry on WhatsApp</button>
 </form>
 </section>
 
 <footer>
-<h3>AA Financial Advisor</h3>
-<p>आपके परिवार की सुरक्षा, हमारा उद्देश्य।</p>
-<p>Life | Health | Vehicle | Financial Planning</p>
+<h2>AA FINANCIAL ADVISOR</h2>
+<p>Smart Money. Better Planning. Better Future.</p>
+<p>Call: +91 8353919039</p>
 <p>© 2026 AA Financial Advisor</p>
 </footer>
-
-<a class="whatsapp" href="https://wa.me/918353919039">WhatsApp</a>
 
 <script>
 function sendMessage(e){
 e.preventDefault();
-const name=document.getElementById('name').value;
-const phone=document.getElementById('phone').value;
-const plan=document.getElementById('plan').value;
-const msg=document.getElementById('message').value;
-const number="918353919039";
-const text="नया ग्राहक संपर्क:%0Aनाम: "+encodeURIComponent(name)+"%0Aमोबाइल: "+encodeURIComponent(phone)+"%0Aयोजना: "+encodeURIComponent(plan)+"%0Aसंदेश: "+encodeURIComponent(msg);
-window.open("https://wa.me/"+number+"?text="+text,"_blank");
+let name=document.getElementById('name').value;
+let phone=document.getElementById('phone').value;
+let plan=document.getElementById('plan').value;
+let message=document.getElementById('message').value;
+let text="New Enquiry%0AName: "+encodeURIComponent(name)+"%0APhone: "+encodeURIComponent(phone)+"%0ARequirement: "+encodeURIComponent(plan)+"%0AMessage: "+encodeURIComponent(message);
+window.open("https://wa.me/918353919039?text="+text,"_blank");
 }
 </script>
-
 </body>
 </html>
